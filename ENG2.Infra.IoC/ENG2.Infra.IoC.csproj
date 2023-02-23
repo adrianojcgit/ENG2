@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ENG2.Application\ENG2.Application.csproj" />
+    <ProjectReference Include="..\ENG2.Domain\ENG2.Domain.csproj" />
+    <ProjectReference Include="..\ENG2.Infra.Darta\ENG2.Infra.Darta.csproj" />
+  </ItemGroup>
+
+</Project>
